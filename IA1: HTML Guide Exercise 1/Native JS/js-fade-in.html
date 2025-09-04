@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Fade In Element </title>
+    <style>
+      #box {
+        width: 200px;
+        height: 200px;
+        background: teal;
+        opacity: 0;
+        transition: opacity 1s;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="box"></div>
+    <button id="btn"> Fade In</button>
+
+    <script>
+      document.getElementById("btn").onclick = function() {
+        let box = document.getElementById("box");
+        box.style.opacity = 1;
+    };
+    </script>
+
+  </body>
+</html>
