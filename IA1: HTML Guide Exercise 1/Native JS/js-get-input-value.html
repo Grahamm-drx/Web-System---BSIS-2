@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Get Input Value </title>
+  </head>
+  <body>
+
+    <label for="name"> Enter your name: </label>
+    <input type="text" id="name"/>
+    <button id="btn"> Submit </button>
+
+    <script>
+      document.getElementById("btn").onclick = function() {
+        let val = document.getElementById("name").value;
+        console.log(val);
+      };
+    </script>
+
+  </body>
+</html>
