@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Prepend Content </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+
+    <p id="demo"> Test my friend </p>
+    <button id="btn"> Add Start </button>
+
+    <script>
+      $("#btn").click(function() {
+        $("#demo").prepend("Start ");
+    });
+    </script>
+
+  </body>
+</html>
