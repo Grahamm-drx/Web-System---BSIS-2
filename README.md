@@ -1,7 +1,7 @@
 # 👋 Hello, I'm John Drex F. Cantor
 
 **2nd Year Information Systems Student** | Bicol University  
-Aspiring Software Developer | Passionate Learner | Problem Solver
+Aspiring Software Developer | Passionate Learner | Steady & Reliable
 
 ---
 
@@ -18,7 +18,7 @@ While I admit I can be a bit laid-back at times, I always deliver quality work a
 | Programming Languages     | Web Technologies       | Others          |
 |--------------------------|-----------------------|-----------------|
 | C++ (Intermediate)       | HTML, CSS, jQuery     | N/A |
-| Python (Beginner)        | Learning PHP & JavaScript | n/A  |
+| Python (Beginner)        | Learning PHP & JavaScript | N/A  |
 
 ---
 
@@ -36,6 +36,6 @@ I’m open to networking, collaborations, and learning opportunities. Feel free 
 
 ---
 
-> “Consistent effort beats occasional brilliance.”  
+> “Not always the fastest, but consistent and reliable — I get things done.”  
 > — John Drex F. Cantor
 
