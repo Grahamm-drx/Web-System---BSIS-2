@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Append Content </title>
+  </head>
+  <body>
+
+    <p id="demo"> This is the original paragraph. </p>
+    <button id="btn"> Add Text </button>
+
+    <script>
+      document.getElementById("btn").onclick = function() {
+        document.getElementById("demo").innerHTML += " Extra text!";
+    };
+    </script>
+
+  </body>
+</html>
