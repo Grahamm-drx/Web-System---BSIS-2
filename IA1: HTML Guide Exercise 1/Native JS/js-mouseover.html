@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Mouseover Event </title>
+    <style>
+      #demo {
+        color: black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p id="demo"> Hover my ass! </p>
+
+    <script>
+      document.getElementById("demo").onmouseover = function() {
+        this.style.color = "red";
+    };
+    </script>
+
+  </body>
+</html>
