@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Slide Down Panel </title>
+    <style>
+      #panel {
+        background-color: lightblue;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="panel">
+      <p> Test my friend </p>
+    </div>
+    <button id="btnSlideDown"> Slide Down </button>
+
+    <script>
+      document.getElementById("btnSlideDown").onclick = function() {
+        document.getElementById("panel").style.maxHeight = "200px";
+    };
+    </script>
+
+  </body>
+</html>
