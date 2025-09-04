@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hide an Element </title>
+  </head>
+  <body>
+
+    <p id="demo" style="display: none"> Test my friend </p>
+    <button id="btn">Hide</button>
+
+    <script>
+      document.getElementById("btn").onclick = function() {
+      let el = document.getElementById("demo");
+      let style = window.getComputedStyle(el);
+      if (style.display === "none") {
+        el.style.display = "block";
+      } else {
+        el.style.display = "none";
+      }
+};
+
+    </script>
+  </body>
+</html>
