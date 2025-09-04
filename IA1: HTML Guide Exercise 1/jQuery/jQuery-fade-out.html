@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Prepend Content </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      #box {
+        width: 200px;
+        height: 200px;
+        background: coral;
+        opacity: 1;
+        transition: opacity 1s;
+      }
+  </style>
+  </head>
+
+  <body>
+
+    <div id="box"></div>
+    <button id="btn"> Fade Out</button>
+
+    <script>
+      $("#btn").click(function() {
+        $("#demo").prepend("Start ");
+    });
+    </script>
+
+  </body>
+</html>
