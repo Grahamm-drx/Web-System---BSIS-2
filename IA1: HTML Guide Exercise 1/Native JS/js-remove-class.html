@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hide an Element </title>
+  </head>
+  <style>
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+
+    <p id="demo" class="highlight"> Test my friend </p>
+    <button id="btn"> Remove highlight</button>
+
+    <script>
+      document.getElementById("btn").onclick = function() {
+        document.getElementById("demo").classList.remove("highlight");
+      };
+
+    </script>
+  </body>
+</html>
