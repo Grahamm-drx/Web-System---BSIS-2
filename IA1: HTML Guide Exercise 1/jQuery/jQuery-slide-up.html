@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Slide Up Panel </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      #panel {
+        background-color: lightblue;
+        max-height: 200px;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+        padding: 10px;
+      }
+  </style>
+  </head>
+  <body>
+
+    <div id="panel">
+    <p> Test my friend </p>
+    </div>
+    <button id="btn"> Slide Up </button>
+
+    <script>
+      $("#btn").click(function() {
+        $("#panel").slideUp();
+    });
+    </script>
+
+  </body>
+</html>
