@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Change Multiple CSS Properties </title>
+    <style>
+      #demo {
+        padding: 10px;
+        background: lightgray;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p id="demo"> Test my friend </p>
+    <button id="btn"> Change Css </button>
+
+    <script>
+      document.getElementById("btn").onclick = function() {
+        let el = document.getElementById("demo");
+        el.style.color = "white";
+        el.style.backgroundColor = "black";
+    };
+    </script>
+
+  </body>
+</html>
