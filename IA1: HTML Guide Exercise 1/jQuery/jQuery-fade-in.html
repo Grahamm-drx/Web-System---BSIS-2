@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Fade In Element </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      #box {
+        width: 200px;
+        height: 200px;
+        background: coral;
+        display: none;
+      }
+  </style>
+  </head>
+
+  <body>
+
+    <div id="box"></div>
+    <button id="btn"> Fade In</button>
+
+    <script>
+      $("#btn").click(function() {
+        $("#box").fadeIn(1000);
+    });
+    </script>
+
+  </body>
+</html>
