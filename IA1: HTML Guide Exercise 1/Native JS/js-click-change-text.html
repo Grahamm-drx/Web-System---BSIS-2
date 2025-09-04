@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Click Event </title>
+    <style>
+      #demo {
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p id="demo"> Click me onii-chan~ </p>
+
+    <script>
+      document.getElementById("demo").onclick = function() {
+        this.innerText = "Nyaaaa! Yamete Kudasai!";
+    };
+    </script>
+
+  </body>
+</html>
