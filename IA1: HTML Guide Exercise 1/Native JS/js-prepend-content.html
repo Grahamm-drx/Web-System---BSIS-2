@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Prepend Content </title>
+  </head>
+  <body>
+
+    <p id="demo"> Test my friend </p>
+    <button id="btn"> Add Start </button>
+
+    <script>
+      document.getElementById("btn").onclick = function() {
+        const demo = document.getElementById("demo");
+        demo.innerHTML = "Start " + demo.innerHTML;
+    };
+    </script>
+
+  </body>
+</html>
