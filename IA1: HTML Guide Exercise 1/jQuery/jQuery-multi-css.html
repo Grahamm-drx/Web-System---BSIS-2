@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Change Multiple CSS Properties </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      #demo {
+        padding: 10px;
+        background: lightgray;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p id="demo"> Test my friend </p>
+    <button id="btn"> Change Css </button>
+
+    <script>
+      $("#btn").click(function() {
+        $("#demo").css({
+        "color": "white",
+        "background-color": "black"
+      });
+    });
+    </script>
+
+  </body>
+</html>
