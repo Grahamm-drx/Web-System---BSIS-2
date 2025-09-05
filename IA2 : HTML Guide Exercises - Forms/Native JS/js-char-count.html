@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Show Live Character Count </title>
+  </head>
+  <body>
+
+    <textarea id="bio" maxlength="100"></textarea>
+    <p id="count"> 0/100 </p>
+
+    <script>
+      const bio = document.getElementById("bio");
+      const count = document.getElementById("count");
+
+      bio.addEventListener("input", function () {
+        count.textContent = bio.value.length + "/100";
+      });
+
+    </script>
+  </body>
+</html>
